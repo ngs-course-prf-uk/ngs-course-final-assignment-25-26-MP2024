@@ -5,7 +5,7 @@ This pipeline allows assessing difference in the read depth (DP) between transit
 
 ## 1. Data Extraction (Bash)
 
-The data extraction part is represented by a script _workflow.sh_. To execute the script use: \
+The data extraction part is represented by a script _workflow.sh_. To execute the script use: 
 ```
 chmod +x workflow.sh
 ./workflow.sh
