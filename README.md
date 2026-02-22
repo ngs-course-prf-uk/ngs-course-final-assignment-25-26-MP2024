@@ -37,14 +37,14 @@ The intermediate files _dp.tsv_ and _mutation_type.tsv_ are deleted.
 
 
 ## 2. Data Analysis (R)
-The data analysis part is represented by a script _Rscript.R_. If `Rscript` is installed on the machine, one can run _workflowR.sh_ instead of _workflow.sh_. This script also involves one additional section:
+The data analysis part is represented by a script _data-analysis.R_. If `Rscript` is installed on the machine, one can run _workflowR.sh_ instead of _workflow.sh_. This script also involves one additional section:
 
 #### 7. Rscript 
-This runs the script _Rscript.R_
+This runs the script _data-analysis.R_
 
-If Rscript is not loaded on the machine, one may engage in using online RStudio (either [NGS Course RStudio Server](https://ngs-course.behavio.dev/) or run own at [Posit Cloud](https://ngs-course.behavio.dev/)) and perform the _Rscript.R_ there.
+If Rscript is not loaded on the machine, one may engage in using online RStudio (either [NGS Course RStudio Server](https://ngs-course.behavio.dev/) or run own at [Posit Cloud](https://ngs-course.behavio.dev/)) and execute the _data-analysis.R_ there.
 
-### Rscript.R
+### data-analysis.R
 This script takes the _combined.tsv_ file and creates a _DPplot.png_ file with boxplots (log y axis) showing the differences in DP between trnsitions and transversions. It is comprised of two section:
 
 #### 1. Uploading a Dataframe
